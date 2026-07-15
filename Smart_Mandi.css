@@ -684,3 +684,141 @@ table{
 }
 
 }
+
+/*Laptop Responsive*/
+
+@media screen and (min-width:1024px) and (max-width:1366px){
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* Navbar */
+
+header{
+    padding:15px 30px;
+}
+
+.logo{
+    font-size:22px;
+}
+
+nav a{
+    margin:0 10px;
+    font-size:15px;
+}
+
+.login-btn{
+    padding:8px 15px;
+}
+
+/* Hero */
+
+.hero{
+    width:100%;
+    min-height:120vh;
+    height:auto;
+    gap:15px;
+}
+
+/* Top Banner */
+
+#innerbox1{
+    font-size:22px;
+}
+
+#innerbox2{
+    font-size:14px;
+}
+
+#innerbox3 img{
+    width:120px;
+    height:auto;
+}
+
+/* Box2 */
+
+#innerbox5{
+    font-size:16px;
+}
+
+#innerbox6{
+    font-size:16px;
+}
+
+/* Progress Card */
+
+#progress{
+    width:90%;
+}
+
+/* Market Table */
+
+table{
+    width:95%;
+    margin:15px auto;
+}
+
+th,
+td{
+    padding:8px;
+    font-size:14px;
+}
+
+#select-crop,
+#select-city{
+    width:120px;
+    font-size:12px;
+}
+
+/* Right Cards */
+
+#innerbox14{
+    font-size:18px;
+}
+
+#smallbox1,
+#smallbox7,
+#smallbox13{
+    font-size:14px;
+}
+
+#smallbox3,
+#smallbox5,
+#smallbox9,
+#smallbox11,
+#smallbox15,
+#smallbox17{
+    font-size:11px;
+}
+
+/* Green Box */
+
+#innerbox19,
+#innerbox20,
+#innerbox21{
+    font-size:14px;
+}
+
+/* Footer */
+
+#foot{
+    width:100%;
+}
+
+#logo-name{
+    font-size:22px;
+}
+
+#privacy,
+#service,
+#contact,
+#copyright{
+    font-size:14px;
+}
+
+}

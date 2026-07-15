@@ -632,5 +632,126 @@ nav a{
     text-align:center;
     padding:0 15px;
 }
+}
+
+/*LAPTOP RESPONSIVE*/
+
+@media screen and (min-width:769px) and (max-width:1440px){
+
+header{
+    padding:15px 40px;
+}
+
+nav a{
+    margin:0 10px;
+    font-size:15px;
+}
+
+/* Hero */
+
+.hero{
+    width:100%;
+    height:auto;
+    grid-template-columns:repeat(20,1fr);
+    grid-template-rows:auto;
+    padding:20px;
+    gap:18px;
+}
+
+/* Top Banner */
+
+#innerbox1{
+    font-size:32px;
+}
+
+#innerbox2{
+    font-size:18px;
+}
+
+/* Crop Cards */
+
+#box3,
+#box4,
+#box5,
+#box6{
+    padding:15px;
+}
+
+#box3 img,
+#box4 img,
+#box5 img,
+#box6 img{
+    width:150px;
+    height:150px;
+}
+
+#innerbox4,
+#innerbox6,
+#innerbox8,
+#innerbox10{
+    margin-left:10px;
+}
+
+#innerbox4 h3,
+#innerbox6 h3,
+#innerbox8 h3,
+#innerbox10 h3{
+    font-size:20px;
+}
+
+/* Recommendation Panel */
+
+#innerbox11{
+    font-size:18px;
+}
+
+#innerbox13{
+    font-size:30px;
+}
+
+#download-pdf{
+    width:90%;
+    margin:20px auto;
+    display:block;
+}
+
+/* Soil Recommendation */
+
+#soil-type{
+    width:100%;
+    max-width:420px;
+}
+
+#recommend-btn{
+    width:250px;
+}
+
+/* Bottom Cards */
+
+#box9,
+#box10,
+#box11{
+    padding:15px;
+}
+
+#innerbox32,
+#innerbox35,
+#innerbox38{
+    font-size:18px;
+}
+
+/* Footer */
+
+#foot{
+    width:100%;
+}
+
+#logo-name{
+    font-size:22px;
+}
+
+#copyright{
+    font-size:14px;
+}
 
 }
