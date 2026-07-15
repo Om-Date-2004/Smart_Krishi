@@ -508,3 +508,179 @@ td, th {
     font-weight: bold;
     color: white;
 }
+
+/*Mobile Responsive */
+
+@media screen and (max-width:768px){
+
+*{
+    box-sizing:border-box;
+}
+
+header{
+    flex-direction:column;
+    padding:15px;
+    gap:15px;
+}
+
+.logo{
+    font-size:22px;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+nav a{
+    margin:0;
+}
+
+.login-btn{
+    width:100%;
+}
+
+/* Hero */
+
+.hero{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    gap:20px;
+}
+
+/* All boxes */
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6{
+    width:100%;
+    height:auto;
+}
+
+/* Box 1 */
+
+#box1{
+    padding:20px;
+}
+
+#innerbox1{
+    font-size:22px;
+    margin:0;
+}
+
+#innerbox2{
+    margin:15px 0;
+    font-size:15px;
+}
+
+#innerbox3{
+    justify-content:center;
+    margin:10px 0 0;
+}
+
+/* Box2 */
+
+#box2{
+    padding:20px;
+}
+
+#innerbox4,
+#innerbox5,
+#innerbox6{
+    margin:10px 0;
+    justify-content:flex-start;
+}
+
+/* Box3 */
+
+#box3{
+    padding:20px;
+}
+
+#innerbox8{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+#progress{
+    width:100%;
+}
+
+/* Table */
+
+#box4{
+    overflow-x:auto;
+    padding:20px;
+}
+
+table{
+    width:700px;
+    margin:20px 0;
+}
+
+#innerbox12{
+    flex-direction:column;
+    gap:10px;
+}
+
+#select-crop,
+#select-city{
+    width:100%;
+}
+
+/* Market cards */
+
+#box5{
+    padding:15px;
+}
+
+#innerbox15,
+#innerbox16,
+#innerbox17{
+    margin:10px 0;
+}
+
+/* Advisory */
+
+#box6{
+    padding:20px;
+}
+
+#innerbox19,
+#innerbox20,
+#innerbox21{
+    margin:10px 0;
+}
+
+/* Footer */
+
+#foot{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+}
+
+#logo-name,
+#privacy,
+#service,
+#contact,
+#copyright{
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    font-size:18px;
+}
+
+}
